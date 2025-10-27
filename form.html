@@ -33,9 +33,14 @@
       <br />
       <!--checkbox-->
       <strong>Pick all that apply</strong><br />
-      <input type="Radio" name="myDecisionCheckbox" id="myCheckbox-yes" value="Yes" required /><label for="myCheckbox-yes"> Yes </label><br />
+      <input type="Radio" name="myDecisionCheckbox" id="myCheckbox-yes" value="Yes" /><label for="myCheckbox-yes"> Yes </label><br />
       <input type="Radio" name="myDecisionCheckbox" id="myCheckbox-no" value="No" /><label for="myCheckbox-no"> No </label>
       <br />
+      <!-- textarea-->
+      <textarea name="comments" value="comments" style="width: 800px; height: 500px"></textarea>
+
+      <!--upload filed-->
+      <input type="file" name="upload" id="upload" accept=".pdf, .docx" />
 
       <input type="submit" value="Submit Form" id="submit" />
     </form>
