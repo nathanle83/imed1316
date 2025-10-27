@@ -27,9 +27,17 @@
       <br />
 
       <!-- radio buttons-->
-      <input type="Radio" name="myDecision" id="myRadio" value="Yes" />Yes<br />
+      <strong>Yes or No?</strong><br />
+      <input type="Radio" name="myDecision" id="myRadio" value="Yes" required />Yes<br />
       <input type="Radio" name="myDecision" id="myRadio" value="No" />No
       <br />
+      <!--checkbox-->
+      <strong>Pick all that apply</strong><br />
+      <input type="Radio" name="myDecisionCheckbox" id="myCheckbox-yes" value="Yes" required /><label for="myCheckbox-yes"> Yes </label><br />
+      <input type="Radio" name="myDecisionCheckbox" id="myCheckbox-no" value="No" /><label for="myCheckbox-no"> No </label>
+      <br />
+
+      <input type="submit" value="Submit Form" id="submit" />
     </form>
 
     <script src="js/form.js"></script>
