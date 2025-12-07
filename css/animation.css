@@ -1,0 +1,80 @@
+.hiking-section {
+  background-color: #2f4f4f;
+  padding: 80px 20px;
+  color: white;
+  overflow: hidden;
+}
+
+.hiking-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Hiker zone */
+.hiker-box {
+  width: 200px;
+  position: relative;
+}
+
+.hiker-img {
+  width: 100%;
+  animation: 
+    walkSide 4s ease-in-out infinite alternate,
+    walkBounce 0.6s ease-in-out infinite;
+}
+
+/* Đi trái → phải */
+@keyframes walkSide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(80px); }
+}
+
+/* Hiệu ứng bước chân lên xuống */
+@keyframes walkBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Content */
+.hiking-content h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hiking-content p {
+  font-size: 18px;
+  max-width: 400px;
+  line-height: 1.6;
+}
+
+.btn-group {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.booking-btn {
+  background: #00c2ff;
+  color: white;
+}
+
+.tour-btn {
+  background: #00ffaa;
+  color: black;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
