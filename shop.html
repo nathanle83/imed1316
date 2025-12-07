@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="css/shop.css" />
+    <link rel="stylesheet" href="css/global.css" />
+  </head>
+  <body>
+    <h1>Hiking Shop</h1>
+    <a href="cart.html">🛒 View Cart</a>
+
+    <div class="shop-container">
+      <div class="product-card">
+        <img src="images/square/bottle.jpg" alt="Bottle" />
+        <h3>Water Bottle</h3>
+        <p>$15</p>
+        <button onclick="addToCart('Water Bottle', 15)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/square/backpack.jpg" alt="Backpack" />
+        <h3>Backpack</h3>
+        <p>$50</p>
+        <button onclick="addToCart('Backpack', 50)">Add to Cart</button>
+      </div>
+    </div>
+
+    <script src="js/shop.js"></script>
+  </body>
+</html>
