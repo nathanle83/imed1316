@@ -13,7 +13,7 @@
   gap: 50px;
 }
 
-/* Hiker zone */
+
 .hiker-box {
   width: 200px;
   position: relative;
@@ -26,19 +26,19 @@
     walkBounce 0.6s ease-in-out infinite;
 }
 
-/* Đi trái → phải */
+
 @keyframes walkSide {
   0% { transform: translateX(0); }
   100% { transform: translateX(80px); }
 }
 
-/* Hiệu ứng bước chân lên xuống */
+
 @keyframes walkBounce {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-5px); }
 }
 
-/* Content */
+
 .hiking-content h2 {
   font-size: 36px;
   margin-bottom: 15px;
