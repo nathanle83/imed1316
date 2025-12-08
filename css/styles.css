@@ -74,6 +74,11 @@ p {
     margin-bottom: 30px;
    
 }
+.headshots blockquote {
+    color: #F6F8EC;
+    font-style: italic;
+
+}
 
 .lottiefiles {
     background-color: var(--accentColor) !important;
@@ -102,3 +107,4 @@ p {
     font-weight: bold;
     text-align: center;
 }
+.
