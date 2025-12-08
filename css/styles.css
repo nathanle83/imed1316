@@ -26,7 +26,7 @@ p {
 
 
 .blinn-fa-container a {
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .blinn-fa-container {
@@ -72,8 +72,7 @@ p {
 .headshots {
     position: relative;
     margin-bottom: 30px;
-    color:#0000 !important; 
-
+   
 }
 
 .lottiefiles {
