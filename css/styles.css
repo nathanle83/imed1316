@@ -97,3 +97,9 @@ p {
     background-color: #6A994E;
     color: white;
 }
+.banner-heading {
+    font-size: 3em;
+    font-weight: bold;
+    color: #E7C640;
+    text-align: center;
+}
