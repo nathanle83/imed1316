@@ -90,4 +90,10 @@ p {
     margin: 0 10px;
     text-decoration: none;
     border-radius: 5px;
+    background-color: #E7C640;
+    color: #386641;
+}
+.tour-btn {
+    background-color: #6A994E;
+    color: white;
 }
