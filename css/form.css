@@ -40,11 +40,11 @@
 
 .submit {
     border-color: var(--secondaryColor) !important;
-    background-color:  #ffffff;
+    background-color:  #F6F8EC;
     color: var(--secondaryColor) !important;
 }
 
 .submit:hover {
-    background-color:  #ffffff;
+    background-color:  #F6F8EC;
     color: #F4EBD0;
 }
