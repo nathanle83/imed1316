@@ -84,14 +84,13 @@ p {
     margin-top: 20px;
     text-align: center;
 }
-
 .banner-btn-group .btn {
     padding: 10px 20px;
     margin: 0 10px;
     text-decoration: none;
     border-radius: 5px;
     background-color: #E7C640;
-    color: #386641;
+    color: #E7C640;
 }
 .tour-btn {
     background-color: #6A994E;
@@ -100,6 +99,5 @@ p {
 .banner-heading {
     font-size: 3em;
     font-weight: bold;
-    color: #E7C640;
     text-align: center;
 }
