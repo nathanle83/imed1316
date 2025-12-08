@@ -79,3 +79,15 @@ p {
     padding: 20px;
     color:#ffffff !important;
 }
+
+.banner-btn-group {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.banner-btn-group .btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
