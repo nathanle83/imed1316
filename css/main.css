@@ -31,7 +31,7 @@ blockquote::before {
     position: absolute;
     left: -20px;
     top: -20px;
-    color: #F6F8EC; !important;
+    color: var(--accentColor) !important;
     content: "\201c";
 }
 
